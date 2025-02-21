@@ -1,0 +1,57 @@
+name: expense_tracker
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev.
+publish_to: 'none'
+
+# Version and build number.
+version: 1.0.0+1
+
+# Dart SDK version.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dependencies for the app.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.6
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  fl_chart: ^0.70.2
+  shared_preferences: ^2.4.0
+  image_picker: ^0.8.7+4
+  flutter_local_notifications: ^18.0.1
+  permission_handler: ^11.3.1
+  flutter_launcher_icons: ^0.14.3
+  file_picker: ^5.2.2
+  path_provider: ^2.0.11
+
+
+# Dev dependencies for testing and linting.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/icon.png"
+  adaptive_icon_background: "lib/assets/icon.png"
+  adaptive_icon_foreground: "lib/assets/icon.png"
+
+# Flutter-specific configurations.
+flutter:
+  uses-material-design: true
+
+  # Assets used in the app.
+  assets:
+    - lib/assets/
+
+# Custom Fonts
+  fonts:
+    - family: Righteous
+      fonts:
+        - asset: lib/assets/Fonts/Righteous-Regular.ttf
